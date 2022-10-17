@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccc;
+}
+
+.container{
+    height: 900px;
+    margin: 100px ;   
+}
+
+.apply{
+    max-width: 600px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1) ;
+    border-radius: 6px;
+}
+
+h1{
+    margin: 20px;
+}
+
+.web_small{
+    font-size: 20px;
+}
+
+.form_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px ,1fr));
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px ;
+}
+
+.form_control{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 15px;
+}
+
+.button{
+    padding: 10px;
+    padding-right: 30px;
+    display: flex ;
+    justify-content: right;
+}
+
+input{
+    padding: 5px;
+}
